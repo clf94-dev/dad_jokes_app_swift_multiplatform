@@ -28,6 +28,7 @@ struct JokeView: View {
                         } label: {
                             Text(item.rawValue)
                                 .foregroundColor(item == jokeType ? .red : Color.primary)
+                                                  
                         }
                     }
                 }.frame(height: 130)
@@ -37,8 +38,22 @@ struct JokeView: View {
                 ProgressView()
             }
             else {
-                Text(jokeString)
-                    .minimumScaleFactor(0.5)
+                VStack {
+                    Text(jokeString)
+                        .minimumScaleFactor(0.5)
+                    HStack{
+                        Spacer()
+                        Button {
+                            let pasteboard = NSPasteboard.general
+                            pasteboard.clearContents()
+                            pasteboard.setString(jokeString, forType: NSPasteboard.PasteboardType.string)
+                        } label: {
+                            Text("Copy")
+                        }
+
+                    }
+
+                }
             }
             Spacer()
         }
