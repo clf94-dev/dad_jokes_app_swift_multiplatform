@@ -26,6 +26,13 @@ struct JokeView: View {
         return .title
         #endif
     }
+    var frameWidth: CGFloat{
+        #if os(macOS)
+        return 205
+        #else
+        return min(UIScreen.main.bounds.size.width - 20, 600)
+        #endif
+    }
     var body: some View {
         VStack {
             HStack (alignment: .center){
@@ -77,6 +84,7 @@ struct JokeView: View {
                     }
 
                 }
+                .frame(width: frameWidth)
             }
             Spacer()
         }
@@ -87,7 +95,7 @@ struct JokeView: View {
     }
     
     func getJoke(_ type: String) async {
-        let url = "https://jokes.guyliangilsing.me/retrieveJokes.php?type=" + type
+        let url = "https://jokes.guyliangilsing.me/retrieveJokes.php?type=\(type)"
         let apiService = APIService(urlString: url)
         fetching.toggle()
         defer {
