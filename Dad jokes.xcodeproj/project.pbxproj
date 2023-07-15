@@ -26,6 +26,7 @@
 		322CB48F2A62F63B00355386 /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46F2A62D6F800355386 /* JokeType.swift */; };
 		322CB4912A62F6ED00355386 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4902A62F6ED00355386 /* Launch Screen.storyboard */; };
 		322CB4932A62F88400355386 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4922A62F88400355386 /* SharedAssets.xcassets */; };
+		322CB4942A62F8E100355386 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4922A62F88400355386 /* SharedAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -221,6 +222,7 @@
 				322CB4662A62D5F000355386 /* Preview Assets.xcassets in Resources */,
 				322CB4782A62E85B00355386 /* Credits.rtf in Resources */,
 				322CB4632A62D5F000355386 /* Assets.xcassets in Resources */,
+				322CB4942A62F8E100355386 /* SharedAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
