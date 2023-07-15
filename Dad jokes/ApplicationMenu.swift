@@ -21,7 +21,15 @@ class ApplicationMenu: NSObject {
         menu.addItem(customMenuItem)
         menu.addItem(NSMenuItem.separator())
         
+        let aboutMenuItem = NSMenuItem(title: "About Dad Jokes", action: #selector(about), keyEquivalent: "")
+        aboutMenuItem.target = self
+        menu.addItem(aboutMenuItem)
+        
+
         return menu
         
+    }
+    @objc func about(sender: NSMenuItem){
+        NSApp.orderFrontStandardAboutPanel()
     }
 }
