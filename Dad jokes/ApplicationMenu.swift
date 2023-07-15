@@ -25,6 +25,10 @@ class ApplicationMenu: NSObject {
         aboutMenuItem.target = self
         menu.addItem(aboutMenuItem)
         
+        let webLinkMenuItem = NSMenuItem(title: "Code with Chris", action: #selector(openLink), keyEquivalent: "")
+        webLinkMenuItem.target = self
+        webLinkMenuItem.representedObject = "https://codewithchris.com"
+        menu.addItem(webLinkMenuItem)
 
         return menu
         
@@ -32,4 +36,12 @@ class ApplicationMenu: NSObject {
     @objc func about(sender: NSMenuItem){
         NSApp.orderFrontStandardAboutPanel()
     }
+    @objc func openLink(sender: NSMenuItem){
+        let link = sender.representedObject as! String
+        guard let url = URL(string:link) else {
+            return
+        }
+        NSWorkspace.shared.open(url)
+    }
+
 }
