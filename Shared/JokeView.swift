@@ -12,12 +12,27 @@ struct JokeView: View {
     @State private var fetching = false
     
     @AppStorage("jokeType") var jokeType: JokeType = .dadjoke
+    var imageWidth: CGFloat{
+        #if os(macOS)
+        return 60
+        #else
+        return 120
+        #endif
+    }
+    var font: Font{
+        #if os(macOS)
+        return .body
+        #else
+        return .title
+        #endif
+    }
     var body: some View {
         VStack {
             HStack (alignment: .center){
                 Image("StewartLynch")
                     .resizable()
-                    .frame(width: 60, height: 60)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: imageWidth)
                 VStack{
                     ForEach(JokeType.allCases, id :\.self) {item in
                         Button {
@@ -30,8 +45,9 @@ struct JokeView: View {
                                 .foregroundColor(item == jokeType ? .red : Color.primary)
                                                   
                         }
+                        .buttonStyle(.bordered)
                     }
-                }.frame(height: 130)
+                }
                 
             }
             if fetching {
@@ -40,16 +56,23 @@ struct JokeView: View {
             else {
                 VStack {
                     Text(jokeString)
+                        .font(font)
                         .minimumScaleFactor(0.5)
                     HStack{
                         Spacer()
                         Button {
+                            #if os(macOS)
                             let pasteboard = NSPasteboard.general
                             pasteboard.clearContents()
                             pasteboard.setString(jokeString, forType: NSPasteboard.PasteboardType.string)
+                            #else
+                            
+                            let pasteboard = UIPasteboard.general
+                            pasteboard.string = jokeString
+                            #endif
                         } label: {
                             Text("Copy")
-                        }
+                        }.buttonStyle(.bordered)
 
                     }
 
@@ -81,7 +104,11 @@ struct JokeView: View {
 
 struct JokeView_Previews: PreviewProvider {
     static var previews: some View {
+        #if os(iOS)
         JokeView()
-            .frame(width: 225, height: 225)
+        #else
+        JokeView()
+            .frame(width: 225, height: 255)
+        #endif
     }
 }

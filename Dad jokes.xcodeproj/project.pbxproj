@@ -17,7 +17,7 @@
 		322CB4762A62E1AB00355386 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4752A62E1AB00355386 /* ApplicationMenu.swift */; };
 		322CB4782A62E85B00355386 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4772A62E85B00355386 /* Credits.rtf */; };
 		322CB4812A62F5FE00355386 /* iOSEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4802A62F5FE00355386 /* iOSEntry.swift */; };
-		322CB4832A62F5FE00355386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4822A62F5FE00355386 /* ContentView.swift */; };
+		322CB4832A62F5FE00355386 /* IOSJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4822A62F5FE00355386 /* IOSJokeView.swift */; };
 		322CB4852A62F5FF00355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4842A62F5FF00355386 /* Assets.xcassets */; };
 		322CB4882A62F5FF00355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4872A62F5FF00355386 /* Preview Assets.xcassets */; };
 		322CB48C2A62F63B00355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
@@ -43,7 +43,7 @@
 		322CB4772A62E85B00355386 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		322CB47E2A62F5FE00355386 /* Dad Jokes iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad Jokes iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CB4802A62F5FE00355386 /* iOSEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSEntry.swift; sourceTree = "<group>"; };
-		322CB4822A62F5FE00355386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		322CB4822A62F5FE00355386 /* IOSJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSJokeView.swift; sourceTree = "<group>"; };
 		322CB4842A62F5FF00355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CB4872A62F5FF00355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		322CB4902A62F6ED00355386 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				322CB4802A62F5FE00355386 /* iOSEntry.swift */,
-				322CB4822A62F5FE00355386 /* ContentView.swift */,
+				322CB4822A62F5FE00355386 /* IOSJokeView.swift */,
 				322CB4842A62F5FF00355386 /* Assets.xcassets */,
 				322CB4862A62F5FF00355386 /* Preview Content */,
 				322CB4902A62F6ED00355386 /* Launch Screen.storyboard */,
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322CB48E2A62F63B00355386 /* JokeView.swift in Sources */,
-				322CB4832A62F5FE00355386 /* ContentView.swift in Sources */,
+				322CB4832A62F5FE00355386 /* IOSJokeView.swift in Sources */,
 				322CB48F2A62F63B00355386 /* JokeType.swift in Sources */,
 				322CB4812A62F5FE00355386 /* iOSEntry.swift in Sources */,
 				322CB48D2A62F63B00355386 /* APIService.swift in Sources */,
