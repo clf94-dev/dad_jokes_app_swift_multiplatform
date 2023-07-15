@@ -29,6 +29,10 @@ class ApplicationMenu: NSObject {
         webLinkMenuItem.target = self
         webLinkMenuItem.representedObject = "https://codewithchris.com"
         menu.addItem(webLinkMenuItem)
+        
+        let quitMenuItem = NSMenuItem(title: "Quit", action: #selector(quit), keyEquivalent: "q")
+        quitMenuItem.target = self
+        menu.addItem(quitMenuItem)
 
         return menu
         
@@ -43,5 +47,7 @@ class ApplicationMenu: NSObject {
         }
         NSWorkspace.shared.open(url)
     }
-
+    @objc func quit(sender: NSMenuItem){
+        NSApp.terminate(self)
+    }
 }
