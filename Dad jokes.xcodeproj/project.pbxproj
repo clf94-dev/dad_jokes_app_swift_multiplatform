@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		322CB45F2A62D5EE00355386 /* Dad_jokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */; };
-		322CB4612A62D5EE00355386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4602A62D5EE00355386 /* ContentView.swift */; };
+		322CB4612A62D5EE00355386 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4602A62D5EE00355386 /* JokeView.swift */; };
 		322CB4632A62D5F000355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4622A62D5F000355386 /* Assets.xcassets */; };
 		322CB4662A62D5F000355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4652A62D5F000355386 /* Preview Assets.xcassets */; };
+		322CB46E2A62D6B000355386 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46D2A62D6B000355386 /* APIService.swift */; };
+		322CB4702A62D6F800355386 /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46F2A62D6F800355386 /* JokeType.swift */; };
+		322CB4722A62D7FB00355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
+		322CB4762A62E1AB00355386 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4752A62E1AB00355386 /* ApplicationMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		322CB45B2A62D5EE00355386 /* Dad jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_jokesApp.swift; sourceTree = "<group>"; };
-		322CB4602A62D5EE00355386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		322CB4602A62D5EE00355386 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		322CB4622A62D5F000355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CB4652A62D5F000355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		322CB4672A62D5F000355386 /* Dad_jokes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dad_jokes.entitlements; sourceTree = "<group>"; };
+		322CB46D2A62D6B000355386 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		322CB46F2A62D6F800355386 /* JokeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeType.swift; sourceTree = "<group>"; };
+		322CB4712A62D7FB00355386 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		322CB4752A62E1AB00355386 /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */,
-				322CB4602A62D5EE00355386 /* ContentView.swift */,
+				322CB4712A62D7FB00355386 /* Joke.swift */,
+				322CB4602A62D5EE00355386 /* JokeView.swift */,
+				322CB4752A62E1AB00355386 /* ApplicationMenu.swift */,
+				322CB46D2A62D6B000355386 /* APIService.swift */,
 				322CB4622A62D5F000355386 /* Assets.xcassets */,
 				322CB4672A62D5F000355386 /* Dad_jokes.entitlements */,
 				322CB4642A62D5F000355386 /* Preview Content */,
+				322CB46F2A62D6F800355386 /* JokeType.swift */,
 			);
 			path = "Dad jokes";
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322CB4612A62D5EE00355386 /* ContentView.swift in Sources */,
+				322CB4702A62D6F800355386 /* JokeType.swift in Sources */,
+				322CB4762A62E1AB00355386 /* ApplicationMenu.swift in Sources */,
+				322CB4722A62D7FB00355386 /* Joke.swift in Sources */,
+				322CB4612A62D5EE00355386 /* JokeView.swift in Sources */,
+				322CB46E2A62D6B000355386 /* APIService.swift in Sources */,
 				322CB45F2A62D5EE00355386 /* Dad_jokesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +290,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "https://jokes.guyliangilsing.me";
+				INFOPLIST_KEY_LSApplicationCategoryType = "https://jokes.guyliangilsing.me";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +320,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "https://jokes.guyliangilsing.me";
+				INFOPLIST_KEY_LSApplicationCategoryType = "https://jokes.guyliangilsing.me";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
