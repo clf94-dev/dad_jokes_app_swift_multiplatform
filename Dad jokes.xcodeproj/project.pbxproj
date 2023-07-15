@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322CB45F2A62D5EE00355386 /* Dad_jokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */; };
+		322CB45F2A62D5EE00355386 /* MacEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB45E2A62D5EE00355386 /* MacEntry.swift */; };
 		322CB4612A62D5EE00355386 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4602A62D5EE00355386 /* JokeView.swift */; };
 		322CB4632A62D5F000355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4622A62D5F000355386 /* Assets.xcassets */; };
 		322CB4662A62D5F000355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4652A62D5F000355386 /* Preview Assets.xcassets */; };
@@ -16,11 +16,19 @@
 		322CB4722A62D7FB00355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
 		322CB4762A62E1AB00355386 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4752A62E1AB00355386 /* ApplicationMenu.swift */; };
 		322CB4782A62E85B00355386 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4772A62E85B00355386 /* Credits.rtf */; };
+		322CB4812A62F5FE00355386 /* iOSEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4802A62F5FE00355386 /* iOSEntry.swift */; };
+		322CB4832A62F5FE00355386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4822A62F5FE00355386 /* ContentView.swift */; };
+		322CB4852A62F5FF00355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4842A62F5FF00355386 /* Assets.xcassets */; };
+		322CB4882A62F5FF00355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4872A62F5FF00355386 /* Preview Assets.xcassets */; };
+		322CB48C2A62F63B00355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
+		322CB48D2A62F63B00355386 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46D2A62D6B000355386 /* APIService.swift */; };
+		322CB48E2A62F63B00355386 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4602A62D5EE00355386 /* JokeView.swift */; };
+		322CB48F2A62F63B00355386 /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46F2A62D6F800355386 /* JokeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		322CB45B2A62D5EE00355386 /* Dad jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_jokesApp.swift; sourceTree = "<group>"; };
+		322CB45E2A62D5EE00355386 /* MacEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacEntry.swift; sourceTree = "<group>"; };
 		322CB4602A62D5EE00355386 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		322CB4622A62D5F000355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CB4652A62D5F000355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -30,10 +38,22 @@
 		322CB4712A62D7FB00355386 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		322CB4752A62E1AB00355386 /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
 		322CB4772A62E85B00355386 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		322CB47E2A62F5FE00355386 /* Dad Jokes iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad Jokes iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322CB4802A62F5FE00355386 /* iOSEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSEntry.swift; sourceTree = "<group>"; };
+		322CB4822A62F5FE00355386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		322CB4842A62F5FF00355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322CB4872A62F5FF00355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		322CB4582A62D5EE00355386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322CB47B2A62F5FE00355386 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +66,9 @@
 		322CB4522A62D5EE00355386 = {
 			isa = PBXGroup;
 			children = (
+				322CB4792A62F5AE00355386 /* Shared */,
 				322CB45D2A62D5EE00355386 /* Dad jokes */,
+				322CB47F2A62F5FE00355386 /* Dad Jokes iOS */,
 				322CB45C2A62D5EE00355386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				322CB45B2A62D5EE00355386 /* Dad jokes.app */,
+				322CB47E2A62F5FE00355386 /* Dad Jokes iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,15 +85,11 @@
 		322CB45D2A62D5EE00355386 /* Dad jokes */ = {
 			isa = PBXGroup;
 			children = (
-				322CB45E2A62D5EE00355386 /* Dad_jokesApp.swift */,
-				322CB4712A62D7FB00355386 /* Joke.swift */,
-				322CB4602A62D5EE00355386 /* JokeView.swift */,
+				322CB45E2A62D5EE00355386 /* MacEntry.swift */,
 				322CB4752A62E1AB00355386 /* ApplicationMenu.swift */,
-				322CB46D2A62D6B000355386 /* APIService.swift */,
 				322CB4622A62D5F000355386 /* Assets.xcassets */,
 				322CB4672A62D5F000355386 /* Dad_jokes.entitlements */,
 				322CB4642A62D5F000355386 /* Preview Content */,
-				322CB46F2A62D6F800355386 /* JokeType.swift */,
 				322CB4772A62E85B00355386 /* Credits.rtf */,
 			);
 			path = "Dad jokes";
@@ -80,6 +99,36 @@
 			isa = PBXGroup;
 			children = (
 				322CB4652A62D5F000355386 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		322CB4792A62F5AE00355386 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				322CB4712A62D7FB00355386 /* Joke.swift */,
+				322CB4602A62D5EE00355386 /* JokeView.swift */,
+				322CB46D2A62D6B000355386 /* APIService.swift */,
+				322CB46F2A62D6F800355386 /* JokeType.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		322CB47F2A62F5FE00355386 /* Dad Jokes iOS */ = {
+			isa = PBXGroup;
+			children = (
+				322CB4802A62F5FE00355386 /* iOSEntry.swift */,
+				322CB4822A62F5FE00355386 /* ContentView.swift */,
+				322CB4842A62F5FF00355386 /* Assets.xcassets */,
+				322CB4862A62F5FF00355386 /* Preview Content */,
+			);
+			path = "Dad Jokes iOS";
+			sourceTree = "<group>";
+		};
+		322CB4862A62F5FF00355386 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				322CB4872A62F5FF00355386 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -104,6 +153,23 @@
 			productReference = 322CB45B2A62D5EE00355386 /* Dad jokes.app */;
 			productType = "com.apple.product-type.application";
 		};
+		322CB47D2A62F5FE00355386 /* Dad Jokes iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322CB4892A62F5FF00355386 /* Build configuration list for PBXNativeTarget "Dad Jokes iOS" */;
+			buildPhases = (
+				322CB47A2A62F5FE00355386 /* Sources */,
+				322CB47B2A62F5FE00355386 /* Frameworks */,
+				322CB47C2A62F5FE00355386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dad Jokes iOS";
+			productName = "Dad Jokes iOS";
+			productReference = 322CB47E2A62F5FE00355386 /* Dad Jokes iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +181,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					322CB45A2A62D5EE00355386 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					322CB47D2A62F5FE00355386 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -133,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				322CB45A2A62D5EE00355386 /* Dad jokes */,
+				322CB47D2A62F5FE00355386 /* Dad Jokes iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +218,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		322CB47C2A62F5FE00355386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322CB4882A62F5FF00355386 /* Preview Assets.xcassets in Resources */,
+				322CB4852A62F5FF00355386 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -160,7 +239,20 @@
 				322CB4722A62D7FB00355386 /* Joke.swift in Sources */,
 				322CB4612A62D5EE00355386 /* JokeView.swift in Sources */,
 				322CB46E2A62D6B000355386 /* APIService.swift in Sources */,
-				322CB45F2A62D5EE00355386 /* Dad_jokesApp.swift in Sources */,
+				322CB45F2A62D5EE00355386 /* MacEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322CB47A2A62F5FE00355386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322CB48E2A62F63B00355386 /* JokeView.swift in Sources */,
+				322CB4832A62F5FE00355386 /* ContentView.swift in Sources */,
+				322CB48F2A62F63B00355386 /* JokeType.swift in Sources */,
+				322CB4812A62F5FE00355386 /* iOSEntry.swift in Sources */,
+				322CB48D2A62F63B00355386 /* APIService.swift in Sources */,
+				322CB48C2A62F63B00355386 /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +432,69 @@
 			};
 			name = Release;
 		};
+		322CB48A2A62F5FF00355386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YUBAHJ7MY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carmenlucas.Dad-Jokes-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322CB48B2A62F5FF00355386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YUBAHJ7MY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carmenlucas.Dad-Jokes-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -357,6 +512,15 @@
 			buildConfigurations = (
 				322CB46B2A62D5F000355386 /* Debug */,
 				322CB46C2A62D5F000355386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322CB4892A62F5FF00355386 /* Build configuration list for PBXNativeTarget "Dad Jokes iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322CB48A2A62F5FF00355386 /* Debug */,
+				322CB48B2A62F5FF00355386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
