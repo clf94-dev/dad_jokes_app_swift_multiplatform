@@ -55,6 +55,7 @@
 		322CB5012A63C06200355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
 		32E132002A63C848009D326B /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4922A62F88400355386 /* SharedAssets.xcassets */; };
 		32E132022A63CA93009D326B /* TypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E132012A63CA93009D326B /* TypeSelectionView.swift */; };
+		32E132042A63D7F9009D326B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E132032A63D7F9009D326B /* ComplicationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,8 @@
 		322CB4F32A63BE7500355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CB4F62A63BE7500355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32E132012A63CA93009D326B /* TypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionView.swift; sourceTree = "<group>"; };
+		32E132032A63D7F9009D326B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		32E132072A63DDD4009D326B /* Dad-Jokes-Watchkit-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dad-Jokes-Watchkit-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,9 +300,11 @@
 		322CB4EE2A63BE7400355386 /* Dad Jokes Watchkit Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				32E132072A63DDD4009D326B /* Dad-Jokes-Watchkit-Watch-App-Info.plist */,
 				322CB4EF2A63BE7400355386 /* WatchKitEntry.swift */,
 				32E132012A63CA93009D326B /* TypeSelectionView.swift */,
 				322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */,
+				32E132032A63D7F9009D326B /* ComplicationController.swift */,
 				322CB4F32A63BE7500355386 /* Assets.xcassets */,
 				322CB4F52A63BE7500355386 /* Preview Content */,
 			);
@@ -567,6 +572,7 @@
 				322CB5012A63C06200355386 /* Joke.swift in Sources */,
 				322CB4F02A63BE7400355386 /* WatchKitEntry.swift in Sources */,
 				322CB5002A63C06200355386 /* APIService.swift in Sources */,
+				32E132042A63D7F9009D326B /* ComplicationController.swift in Sources */,
 				322CB4FF2A63C06200355386 /* JokeType.swift in Sources */,
 				32E132022A63CA93009D326B /* TypeSelectionView.swift in Sources */,
 			);
@@ -957,6 +963,7 @@
 				DEVELOPMENT_TEAM = YUBAHJ7MY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dad-Jokes-Watchkit-Watch-App-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -986,6 +993,7 @@
 				DEVELOPMENT_TEAM = YUBAHJ7MY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dad-Jokes-Watchkit-Watch-App-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
