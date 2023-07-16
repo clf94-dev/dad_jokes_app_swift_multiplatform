@@ -46,6 +46,14 @@
 		322CB4C82A63011A00355386 /* Dad_Joke_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4A42A62FFC300355386 /* Dad_Joke_Widget.intentdefinition */; };
 		322CB4CB2A63025500355386 /* WidgetSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4C92A63024700355386 /* WidgetSupport.swift */; };
 		322CB4CC2A630A4C00355386 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4BE2A6300FB00355386 /* IntentHandler.swift */; };
+		322CB4F02A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */; };
+		322CB4F22A63BE7400355386 /* WatchkitJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */; };
+		322CB4F42A63BE7500355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4F32A63BE7500355386 /* Assets.xcassets */; };
+		322CB4F72A63BE7500355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4F62A63BE7500355386 /* Preview Assets.xcassets */; };
+		322CB4FF2A63C06200355386 /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46F2A62D6F800355386 /* JokeType.swift */; };
+		322CB5002A63C06200355386 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46D2A62D6B000355386 /* APIService.swift */; };
+		322CB5012A63C06200355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
+		32E132002A63C848009D326B /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4922A62F88400355386 /* SharedAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +84,16 @@
 				322CB4C32A6300FB00355386 /* WidgetIntentHandler.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322CB4E22A63BC1E00355386 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -113,6 +131,11 @@
 		322CB4BE2A6300FB00355386 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		322CB4C02A6300FB00355386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322CB4C92A63024700355386 /* WidgetSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSupport.swift; sourceTree = "<group>"; };
+		322CB4EA2A63BE7300355386 /* Dad Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_Jokes_WatchkitApp.swift; sourceTree = "<group>"; };
+		322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchkitJokeView.swift; sourceTree = "<group>"; };
+		322CB4F32A63BE7500355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322CB4F62A63BE7500355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +170,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		322CB4E72A63BE7300355386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,6 +188,7 @@
 				322CB47F2A62F5FE00355386 /* Dad Jokes iOS */,
 				322CB49F2A62FFC300355386 /* Dad Joke Widget */,
 				322CB4BD2A6300FB00355386 /* WidgetIntentHandler */,
+				322CB4EE2A63BE7400355386 /* Dad Jokes Watchkit Watch App */,
 				322CB49A2A62FFC300355386 /* Frameworks */,
 				322CB45C2A62D5EE00355386 /* Products */,
 			);
@@ -170,6 +201,7 @@
 				322CB47E2A62F5FE00355386 /* Dad Jokes iOS.app */,
 				322CB4992A62FFC300355386 /* Dad Joke WidgetExtension.appex */,
 				322CB4BA2A6300FB00355386 /* WidgetIntentHandler.appex */,
+				322CB4EA2A63BE7300355386 /* Dad Jokes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,6 +292,25 @@
 			path = WidgetIntentHandler;
 			sourceTree = "<group>";
 		};
+		322CB4EE2A63BE7400355386 /* Dad Jokes Watchkit Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */,
+				322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */,
+				322CB4F32A63BE7500355386 /* Assets.xcassets */,
+				322CB4F52A63BE7500355386 /* Preview Content */,
+			);
+			path = "Dad Jokes Watchkit Watch App";
+			sourceTree = "<group>";
+		};
+		322CB4F52A63BE7500355386 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				322CB4F62A63BE7500355386 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,6 +321,7 @@
 				322CB4572A62D5EE00355386 /* Sources */,
 				322CB4582A62D5EE00355386 /* Frameworks */,
 				322CB4592A62D5EE00355386 /* Resources */,
+				322CB4E22A63BC1E00355386 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -334,6 +386,23 @@
 			productReference = 322CB4BA2A6300FB00355386 /* WidgetIntentHandler.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		322CB4E92A63BE7300355386 /* Dad Jokes Watchkit Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322CB4F82A63BE7500355386 /* Build configuration list for PBXNativeTarget "Dad Jokes Watchkit Watch App" */;
+			buildPhases = (
+				322CB4E62A63BE7300355386 /* Sources */,
+				322CB4E72A63BE7300355386 /* Frameworks */,
+				322CB4E82A63BE7300355386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dad Jokes Watchkit Watch App";
+			productName = "Dad Jokes Watchkit Watch App";
+			productReference = 322CB4EA2A63BE7300355386 /* Dad Jokes.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +425,9 @@
 					322CB4B92A6300FB00355386 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					322CB4E92A63BE7300355386 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 322CB4562A62D5EE00355386 /* Build configuration list for PBXProject "Dad jokes" */;
@@ -375,6 +447,7 @@
 				322CB47D2A62F5FE00355386 /* Dad Jokes iOS */,
 				322CB4982A62FFC300355386 /* Dad Joke WidgetExtension */,
 				322CB4B92A6300FB00355386 /* WidgetIntentHandler */,
+				322CB4E92A63BE7300355386 /* Dad Jokes Watchkit Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -415,6 +488,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322CB4E82A63BE7300355386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E132002A63C848009D326B /* SharedAssets.xcassets in Resources */,
+				322CB4F72A63BE7500355386 /* Preview Assets.xcassets in Resources */,
+				322CB4F42A63BE7500355386 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +553,18 @@
 				322CB4C72A63011000355386 /* JokeType.swift in Sources */,
 				322CB4C82A63011A00355386 /* Dad_Joke_Widget.intentdefinition in Sources */,
 				322CB4BF2A6300FB00355386 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322CB4E62A63BE7300355386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322CB4F22A63BE7400355386 /* WatchkitJokeView.swift in Sources */,
+				322CB5012A63C06200355386 /* Joke.swift in Sources */,
+				322CB4F02A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift in Sources */,
+				322CB5002A63C06200355386 /* APIService.swift in Sources */,
+				322CB4FF2A63C06200355386 /* JokeType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,6 +942,65 @@
 			};
 			name = Release;
 		};
+		322CB4F92A63BE7500355386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes Watchkit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YUBAHJ7MY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carmenlucas.Dad-Jokes-Watchkit.watchkitapp";
+				PRODUCT_NAME = "Dad Jokes";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		322CB4FA2A63BE7500355386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes Watchkit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YUBAHJ7MY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carmenlucas.Dad-Jokes-Watchkit.watchkitapp";
+				PRODUCT_NAME = "Dad Jokes";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -891,6 +1045,15 @@
 			buildConfigurations = (
 				322CB4C52A6300FB00355386 /* Debug */,
 				322CB4C62A6300FB00355386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322CB4F82A63BE7500355386 /* Build configuration list for PBXNativeTarget "Dad Jokes Watchkit Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322CB4F92A63BE7500355386 /* Debug */,
+				322CB4FA2A63BE7500355386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
