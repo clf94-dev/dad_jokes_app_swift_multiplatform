@@ -46,7 +46,7 @@
 		322CB4C82A63011A00355386 /* Dad_Joke_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4A42A62FFC300355386 /* Dad_Joke_Widget.intentdefinition */; };
 		322CB4CB2A63025500355386 /* WidgetSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4C92A63024700355386 /* WidgetSupport.swift */; };
 		322CB4CC2A630A4C00355386 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4BE2A6300FB00355386 /* IntentHandler.swift */; };
-		322CB4F02A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */; };
+		322CB4F02A63BE7400355386 /* WatchKitEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4EF2A63BE7400355386 /* WatchKitEntry.swift */; };
 		322CB4F22A63BE7400355386 /* WatchkitJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */; };
 		322CB4F42A63BE7500355386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4F32A63BE7500355386 /* Assets.xcassets */; };
 		322CB4F72A63BE7500355386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4F62A63BE7500355386 /* Preview Assets.xcassets */; };
@@ -54,6 +54,7 @@
 		322CB5002A63C06200355386 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB46D2A62D6B000355386 /* APIService.swift */; };
 		322CB5012A63C06200355386 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB4712A62D7FB00355386 /* Joke.swift */; };
 		32E132002A63C848009D326B /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CB4922A62F88400355386 /* SharedAssets.xcassets */; };
+		32E132022A63CA93009D326B /* TypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E132012A63CA93009D326B /* TypeSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,10 +133,11 @@
 		322CB4C02A6300FB00355386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322CB4C92A63024700355386 /* WidgetSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSupport.swift; sourceTree = "<group>"; };
 		322CB4EA2A63BE7300355386 /* Dad Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_Jokes_WatchkitApp.swift; sourceTree = "<group>"; };
+		322CB4EF2A63BE7400355386 /* WatchKitEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitEntry.swift; sourceTree = "<group>"; };
 		322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchkitJokeView.swift; sourceTree = "<group>"; };
 		322CB4F32A63BE7500355386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CB4F62A63BE7500355386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E132012A63CA93009D326B /* TypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,7 +297,8 @@
 		322CB4EE2A63BE7400355386 /* Dad Jokes Watchkit Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				322CB4EF2A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift */,
+				322CB4EF2A63BE7400355386 /* WatchKitEntry.swift */,
+				32E132012A63CA93009D326B /* TypeSelectionView.swift */,
 				322CB4F12A63BE7400355386 /* WatchkitJokeView.swift */,
 				322CB4F32A63BE7500355386 /* Assets.xcassets */,
 				322CB4F52A63BE7500355386 /* Preview Content */,
@@ -562,9 +565,10 @@
 			files = (
 				322CB4F22A63BE7400355386 /* WatchkitJokeView.swift in Sources */,
 				322CB5012A63C06200355386 /* Joke.swift in Sources */,
-				322CB4F02A63BE7400355386 /* Dad_Jokes_WatchkitApp.swift in Sources */,
+				322CB4F02A63BE7400355386 /* WatchKitEntry.swift in Sources */,
 				322CB5002A63C06200355386 /* APIService.swift in Sources */,
 				322CB4FF2A63C06200355386 /* JokeType.swift in Sources */,
+				32E132022A63CA93009D326B /* TypeSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

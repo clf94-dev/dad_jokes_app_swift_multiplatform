@@ -11,7 +11,13 @@ import SwiftUI
 struct Dad_Jokes_Watchkit_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            WatchkitJokeView()
+            NavigationView {
+                TabView {
+                    WatchkitJokeView()
+                    TypeSelectionView()
+                }
+               
+            }
         }
     }
 }
