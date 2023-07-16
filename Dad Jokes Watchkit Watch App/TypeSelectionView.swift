@@ -16,15 +16,14 @@ struct TypeSelectionView: View {
                     jokeType = item
                 } label: {
                     Text(item.rawValue)
-                        .padding()
-                        .listItemTint(item == jokeType ? .red : Color.init(red: 0.9, green: 0.9, blue: 0.9, opacity: 0.3))
                 }
+                .padding()
+                .listItemTint(item == jokeType ? .red : Color.init(red: 0.9, green: 0.9, blue: 0.9, opacity: 0.3))
 
             }
         }
         .padding(.horizontal)
-        .navigationTitle("Joke Types")
-        
+        .navigationTitle("Joke Types") 
     }
 }
 
